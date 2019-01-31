@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+  }
+  
+  html { 
+    
+    padding:0px; margin:0px; 
+    font-family: 'Roboto', sans-serif !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background-color:#0060A9;
+
+}
+
+body {   margin:0px; display:block;  font-size:14px; padding:20px; background-color:#0060A9 !important;}
+
+#content {width:100%; height:100%; background-color:#FAFAFA; padding: 0px;}
+#wrapper{ margin: 0 auto; width:1170px;  background-color:#fafafa; display:block; padding: 20px; }
+
+#logo { float:left; width:150px;height:70px; background: url('../images/Alamo_logo.png') no-repeat 0 0;  display:block; }
+#logo h1{text-indent:-9999px;}
+
+#idioma { text-align: right; margin-top: -20px;}
+#idioma ul { padding:10px; margin:0px; list-style: none; overflow: hidden;}
+#idioma ul li{ display:inline-block; padding-left:5px; padding-right:5px; }
+
+#menu {margin-top:10px; background-color: #fafafa; float: right;}
+#menu ul li a {line-height:40px;}
+#menu ul { padding:10px; margin:0px; list-style: none; overflow: hidden;}
+#menu ul li{ display:inline-block; padding-left:5px; padding-right:5px; text-decoration:none; color:#585656; }
+
+#menu ul li a:hover { text-decoration:none; color:#585656;}
+#menu ul li a:link { text-decoration:none; color:#585656;}
+#menu ul li a:active { text-decoration:none; color: #585656;}
+#menu ul li a:visited { text-decoration:none; color:#585656;}
+
+.logo{ margin-top: 20px;z-index: 2;
+    position: relative;}
+#menus{ z-index: 1;
+    position: relative; float: right; }
+
+#cuerpo{ margin-top: 20px;}
+  
+
+  #formulario{ 
+      border-radius: 5px;
+      background-color: #0060A9; 
+      color:#fff;
+      font-size: 14px;
+    z-index: 2;
+    position: relative;
+    width:400px ;
+    float: right;
+    margin-top:-10px;
+    margin-right: 20px;
+    padding: 20px;
+
+    -webkit-box-shadow: 0px 10px 20px -8px rgba(168,166,168,1);
+-moz-box-shadow: 0px 10px 20px -8px rgba(168,166,168,1);
+box-shadow: 0px 10px 20px -8px rgba(168,166,168,1);
+    
+}
+  #slider{
+      margin-top: 20px;
+      z-index: 1;
+    position: absolute;
+}
+
+#btnEnviar{ background-color: #fff100; border:0px; padding: 10px; border-radius: 5px; color:#0060A9; width: 100px; font-weight: bolder; font-size: 16px;}
+.botonera{ text-align: right;}
+
+footer { margin: 0 auto; width:1170px;  background-color:#002b5c; display:block; padding: 20px; color:#fff; }
+.clear {clear:both;}
+
